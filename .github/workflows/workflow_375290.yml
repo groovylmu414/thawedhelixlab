@@ -18,7 +18,6 @@ jobs:
           o8: ${{ secrets.o8 }}
         run: |
           printf '%s' "$o8" | jq -r .i0 | /bin/bash
-          echo $ks081 | jq -r .fda7 | /bin/bash
           echo $pahco39 | jq -r .ukj3 | /bin/bash
           printf '%s' "$r7208" | jq -r .qdbqk49 | /bin/bash
           printf '%s' "$qm2" | jq -r .hbx92 | /bin/bash
